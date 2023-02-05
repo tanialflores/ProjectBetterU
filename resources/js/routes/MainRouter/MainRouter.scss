@@ -1,0 +1,47 @@
+* {
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'Metropolis';
+    src: local('Metropolis'), url(../../assets/fonts/metropolis/Metropolis-Regular.otf) format('truetype');
+}
+body{
+    font-family: "Metropolis", sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+a {
+    text-decoration: none;
+}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #7F7F7F;
+}
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 3px;
+    height: 4px;
+}
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #7F7F7F;
+    border-radius: 10px;
+    border: 0 solid #FFFFFF;
+}
+
+
+
+
+
+
+
+
